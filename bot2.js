@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd' ,member => {
-  if(member.guild.id !== '248937180737568768') return;
+  if(member.guild.id !== '500019474494128139') return;
   setTimeout(function(){
   member.guild.channels.find(r => r.id === '497176831431278612').send('**Welcome to Venom Network :rose:  :new_moon_with_face: **');
 },8000);
@@ -45,7 +45,7 @@ if (message.content.startsWith(adminprefix + 'pl')) {
 
  client.on('message', message => {
   if (message.content === '!!!') {   
-      if (message.author.id !== '248937180737568768')
+      if (message.author.id !== '500019474494128139')
  return message.react('🕊')
     const channel = message.member.voiceChannel;
 
@@ -57,7 +57,7 @@ if (message.content.startsWith(adminprefix + 'pl')) {
 
  client.on('message', message => {
   if (message.content === '!!!!') {   
-      if (message.author.id !== '248937180737568768')
+      if (message.author.id !== '500019474494128139')
  return message.react('🕊')
     const channel = message.member.voiceChannel;
 
