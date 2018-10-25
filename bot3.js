@@ -66,4 +66,4 @@ if (message.content.startsWith(adminprefix + 'pl')) {
 });
 
 
-client.login(process.env.BOT_TOKEN2);
+client.login(process.env.BOT_TOKEN3);
