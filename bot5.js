@@ -8,7 +8,7 @@ client.on('ready', () => {
 client.on('guildMemberAdd' ,member => {
   if(member.guild.id !== '342590736090529794') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '497176831431278612').send('**Hoşgeldiniz Venom Network . . . . **);
+  member.guild.channels.find(r => r.id === '497176831431278612').send('**Hoşgeldiniz Venom Network . . . . **');
 },8000);
 });
 
